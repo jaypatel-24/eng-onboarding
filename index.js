@@ -6,7 +6,9 @@ const prompt = require("prompt-sync")();
 const input_number  = parseInt(prompt('Enter the number of terms in sequence: '));
 
 let n1 = 0, n2 = 1, sum = 0 ;
+
 let terms = 0;
+
 while(terms < input_number) {
 	console.log(sum+" ")
 
